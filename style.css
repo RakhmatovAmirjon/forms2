@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    }
+
+.error-field input {
+    border: 2px solid red;
+}
+
+.main {
+    width: 530px;
+    height: 620px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    width: 270px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.under_form {
+    width: 260px;
+    height: 16px; 
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.example_form {
+    width: 250px;
+    height: 35px;
+    color: #000;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all {
+    width: 37px;
+    height: 16px;
+    
+    display: flex;
+    color: let(--Text-Color, #1A1A1A);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.need {
+    width: 50px;
+    height: 16px;
+    color: let(--Text-Color, #1A1A1A);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    display: flex;
+}
+
+.success {
+    width: 85px;
+    height: 16px;
+    
+    display: flex;
+    color: let(--Text-Color, #1A1A1A);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.error {
+    width: 68px;
+    height: 16px;
+    display: flex;
+}
+
+.forms {
+    width: 530px;
+    height: 430px;
+    margin: 100px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 230px;
+    height: 38px;
+    font-size: 15px;
+    padding: 7px;
+}
+
+.first_part {
+    width: 265px;
+    height: 430px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second_part {
+    width: 265px;
+    height: 430px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input_main {
+    width: 250px;
+    height: 65px;
+    
+}
+
+button {
+    width: 230px;
+    height: 38px;
+    border: none;
+    background: #4200FF;
+    color: white;
+}
+
+.empty-input {
+    border: 2px solid red;
+}
+
+.buttoner {
+    background: red;
+}
